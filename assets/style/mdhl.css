@@ -73,7 +73,7 @@
 }
 
 .banner{
-    background-image: url(/assets/image/design1_image1.jpg), linear-gradient(0deg, rgba(0,0,0,0.8435749299719888) 0%, rgba(255,255,255,0.30015756302521013) 34%, rgba(255,255,255,0) 100%);
+    background-image: url(assets/image/design1_image1.jpg), linear-gradient(0deg, rgba(0,0,0,0.8435749299719888) 0%, rgba(255,255,255,0.30015756302521013) 34%, rgba(255,255,255,0) 100%);
     height: auto;
     width: 60vw;
     background-position: center;
@@ -138,7 +138,7 @@
 /* ABOUT SECTION START */
 /* ------------------------------------------------------- */
 .about-title{
-    background-image: url(/assets/image/design1_image1.jpg);
+    background-image: url(../assets/image/design1_image1.jpg);
     padding: 2rem;
     color: #f7f7f7;
     font-size: 2.8rem;
@@ -200,7 +200,7 @@
 }
 
 .left-cbox{
-	background: url(/assets/image/design1_image2.jpg) no-repeat center;
+	background: url(../assets/image/design1_image2.jpg) no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
