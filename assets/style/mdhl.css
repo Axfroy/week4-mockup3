@@ -72,7 +72,7 @@
 }
 
 .banner{
-    background-image: url(assets/image/design1_image1.jpg), linear-gradient(0deg, rgba(0,0,0,0.8435749299719888) 0%, rgba(255,255,255,0.30015756302521013) 34%, rgba(255,255,255,0) 100%);
+    background-image: url(../image/design1_image1.jpg), linear-gradient(0deg, rgba(0,0,0,0.8435749299719888) 0%, rgba(255,255,255,0.30015756302521013) 34%, rgba(255,255,255,0) 100%);
     height: auto;
     width: 60vw;
     background-position: center;
