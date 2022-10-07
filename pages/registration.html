@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <link rel="stylesheet" href="../style/mdhl.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/50c3688a97.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-ctn">
+                <a href="../index.html"><img class="logo" src="../assets/image/logo_mighty_ducks-01.png" alt="Logo"></a>
+            </div>
+            <div class="nav-ctn">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a class="nav-links" href="../index.html">Home</a></li>
+                    <li class="nav-list-item"><a class="nav-links" href="./rules.html">Rules</a></li>
+                    <li class="nav-list-item"><a class="nav-links" href="./gameinfo.html">Game Info</a></li>
+                    <li class="nav-list-item"><a class="nav-links" href="./about.html">About</a></li>
+                    <li class="nav-list-item"><a class="nav-links" href="./contact.html">Contact</a></li>
+                    <li class="nav-list-item signUp"><a class="nav-links signUp-link" href="./registration.html">Sign Up</a></li>
+                </ul>
+                <div>
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="main-ctn">
+        <div class="container-form">
+            <h1 class="form-title center">Registration Form</h1>
+            <form action="./show_data.html" method="get" class="forms">
+                <div class="user-details grid-2c">
+                    <div class="input-box">
+                        <div class="flex">
+                            <label for="First_Name" class="max-content">Player's First Name:</label>
+                            <input type="text" id="First_Name" name="First_Name" class="input-width" required>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="flex">
+                            <label for="Last_Name">Last Name:</label>
+                            <input type="text" id="Last_Name" name="Last_Name" class="input-width" required>
+                        </div>
+                    </div>
+                    <div class="item3">
+                        <div class="flex">
+                            <label for="Address">Street Address:</label>
+                            <input type="text" id="Address" name="Addess" class="input-width" required>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="flex">
+                            <label for="City">City:</label>
+                            <input type="text" id="City" name="City" class="input-width" required>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="flex">
+                            <label for="Zip_Code">Zip Code:</label>
+                            <input type="number" id="Zip_Code" name="Zip_Code" class="input-width" required>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="flex">
+                            <label for="Birth_Date">Birth Date:</label>
+                            <input type="date" id="Birth_Date" name="Birth_Date" class="input-width" required>
+                        </div>
+                    </div>
+                    <div class="input-box max-content">
+                        <div>
+                            <label for="gener">Gender:</label>
+                            <input type="radio" id="female" name="Gener" value="female">
+                            <label for="female" class="space-form1">Female</label>
+                            <input type="radio" id="male" name="Gener" value="male">
+                            <label for="male" class="space-form1">Male</label>
+                            <input type="radio" id="Prefer not to say" name="Gener" value="Prefer not to say">
+                            <label for="noySay" class="space-form1">Prefer not to say</label>
+                        </div>
+                    </div>
+                    <div class="item3">
+                        <div>
+                            <label for="Grade">Grade:</label>
+                            <input type="radio" id="preSchool" name="Grade" value="PreSchool" required>
+                            <label for="preSchool" class="space-form2">Pre-School</label>
+                            <input type="radio" id="1st" name="Grade" value="1st" required>
+                            <label for="first" class="space-form2"><sup>1st</sup></label>
+                            <input type="radio" id="2nd" name="Grade" value="2nd" required>
+                            <label for="first" class="space-form2"><sup>2nd</sup></label >
+                            <input type="radio" id="3nd" name="Grade" value="3nd" required>
+                            <label for="first" class="space-form2"><sup>3rd</sup></label>
+                            <input type="radio" id="4th" name="Grade" value="4th" required>
+                            <label for="first" class="space-form2"><sup>4th</sup></label>
+                            <input type="radio" id="5th" name="Grade" value="5th" required>
+                            <label for="first" class="space-form2"><sup>5th</sup></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-distance">
+                    <h3 class="sct-title">Which elementary school do you live near?</h3>
+                    <h4 class="sct-subtitle">Closest School:</h4>
+                    <div class="grid-2c">
+                        <div>
+                            <div class="option"><input type="radio" id="AJ_Katzenmaier" name="School" value="AJ Katzenmaier" required> AJ Katzenmaier</div>
+                            <div class="option"><input type="radio" id="Greenbay" name="School" value="Greenbay" required> Greenbay</div>
+                            <div class="option"><input type="radio" id="Howard_A_Yeager" name="School" value="Howard A Yeager" required> Howard A Yeager</div>
+                        </div>
+                        <div>
+                            <div class="option"><input type="radio" id="Marjorie_P_Hart" name="School" value="Marjorie P Hart" required> Marjorie P Hart</div>
+                            <div class="option"><input type="radio" id="North_Elementary" name="School" value="North Elementary" required> North Elementary</div>
+                            <div class="option"><input type="radio" id="South_Elementary" name="School" value="South Elementary" required> South Elementary</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="player-position">
+                    <h3 class="sct-title">What position(s) do you normally play? (check all that apply)</h3>
+                    <div class="grid-2c">
+                        <div>
+                            <div class="option"><input type="checkbox" id="Forward" name="Position_play" value="Forward"> Forward</div>
+                            <div class="option"><input type="checkbox" id="Defense" name="Position_play" value="Defense"> Defense</div>
+                        </div>
+                        <div>
+                            <div class="option"><input type="checkbox" id="Midfield" name="Position_play" value="Midfield"> Midfield</div>
+                            <div class="option"><input type="checkbox" id="Goalkeeper" name="Position_play" value="Goalkeeper"> Goalkeeper</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-uniform">
+                    <h3 class="sct-title">Uniform Size:</h3>
+                    <div class="grid-2c">
+                        <div>
+                            <div class="option"><input type="checkbox" id="Youth_Small" name="Size" value="Youth Small"> Youth Small</div>
+                            <div class="option"><input type="checkbox" id="Youth_Medium" name="Size" value="Youth Medium"> Youth Medium</div>
+                            <div class="option"><input type="checkbox" id="Youth_Large" name="Size" value="Youth_Large"> Youth Large</div>
+                            <div class="option"><input type="checkbox" id="Small" name="Size" value="Small"> Small</div>
+                        </div>
+                        <div>
+                            <div class="option"><input type="checkbox" id="Medium" name="Size" value="Medium"> Medium</div>
+                            <div class="option"><input type="checkbox" id="Large" name="Size" value="Large"> Large</div>
+                            <div class="option"><input type="checkbox" id="Extra-Large" name="Size" value="Extra-Large"> Extra-Large</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="permision-ctn">
+                    <h3 class="sct-title">Permission to Play</h3>
+                    <p class="permision-p">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                        rules of the
+                        Migth Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with
+                        hockey and in
+                        consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby
+                        realise,
+                        discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,
+                        including the
+                        facilities used for practices and games, against any claim by or on behalf of the registrant as a result
+                        of the
+                        registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,
+                        which
+                        transportation.
+                    </p>
+                    <p class="permision-p">By signing below, I hereby agree and authorize the above. In addition, by signing below, also
+                        acknowl lendge that I
+                        have read the cancellation policy and agree to its terms.
+                    </p>
+                    <p class="permision-p">Entering  their name below, they are hereby authorizing the form.</p> 
+                    <div class="flex input-box">
+                        <label for="parentOrGuardian">Parent / Guardian Signature:</label>
+                        <input type="text" id="Parent_Guardian" name="Parent_Guardian" class="input-width" required>
+                    </div>
+                    <div class="flex input-box">
+                        <label for="Parent_Guardian">Date:</label>
+                        <input type="Date" id="Date" name="Date" class="input-width" required>
+                    </div>
+                    <button class="form-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer-distributed">
+        <div class="footer-right">
+            <a class="link-icons" href="#"><i class="fa-brands fa-facebook social-icons"></i></a>
+            <a class="link-icons" href="#"><i class="fa-solid fa-envelope social-icons" ></i></a>
+            <a class="link-icons" href="#"><i class="fa-brands fa-instagram social-icons"></i></a>
+        </div>
+        <div class="footer-left">
+            <p class="footer-p">
+                <a class="footer-links" href="./index.html">Home</a> ·
+                <a class="footer-links" href="./pages/rules.html">Rules</a> ·
+                <a class="footer-links" href="./pages/gameinfo.html">Game Info</a> ·
+                <a class="footer-links" href="./pages/about.html">About</a> ·
+                <a class="footer-links" href="./pages/contact.html">Contact</a> ·
+                <a class="footer-links" href="./registration.html">Sign Up</a> 
+            </p>
+            <p>Mighty Ducks Hockey League</p>
+        </div>
+    </footer>
+</body>
+</html>
